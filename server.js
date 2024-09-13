@@ -15,7 +15,7 @@ dotenv.config();
 // Connect to the database
 connectDB();
 const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const _dirname = path.dirname(__filename);
 
 // Initialize Express application
 const app = express();
