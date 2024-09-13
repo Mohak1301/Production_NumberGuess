@@ -6,6 +6,8 @@ import scoreRoute from "./Routes/scoreRoute.js";  // Ensure the correct path for
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
+import morgan from "morgan"
+import bodyParser from "body-parser";
 
 // Load environment variables
 dotenv.config();
